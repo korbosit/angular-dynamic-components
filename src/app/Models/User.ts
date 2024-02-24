@@ -5,7 +5,6 @@ export class User {
   membership: string;
   price: number;
   isActive: boolean;
-  status: string;
 
   constructor(
     id: number,
@@ -13,8 +12,7 @@ export class User {
     gender: string,
     membership: string,
     price: number,
-    isActive: boolean,
-    status: string
+    isActive: boolean
   ) {
     this.id = id;
     this.name = name;
@@ -22,6 +20,5 @@ export class User {
     this.membership = membership;
     this.price = price;
     this.isActive = isActive;
-    this.status = status;
   }
 }
